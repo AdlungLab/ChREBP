@@ -7,7 +7,7 @@ Janina Behrens, Tongtong Wang, Christoph Kilian, Anna Worthmann, Mark A Herman, 
 
 *co-last author
 
-You can run the scripts to reproduce the respective figures of the accepted and soon to be published manuscript.
+You can run the scripts to reproduce the main findings.
 
 Please forward any request to [Dr. Lorenz Adlung](mailto:l.adlung@uke.de)
 
