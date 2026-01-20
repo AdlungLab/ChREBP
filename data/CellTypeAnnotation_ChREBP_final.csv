@@ -1,0 +1,23 @@
+ClusterID,Number,CellType,celltypecolor,showName
+0,0,RBC,#8B0000,0 RBC
+1,1,Brown adipocyte (Ucp1 low),#af6729,1 Brown adipocyte (Ucp1 low)
+2,2,Brown adipocyte (Ucp1 high),#876346,2 Brown adipocyte (Ucp1 high)
+3,3,Stromal cell-1,#ff990a,3 Stromal cell-1
+4,4,White adipocyte,#dfc2a9,4 White adipocyte
+5,5,Muscle fiber (fast),#bf3335,5 Muscle fiber (fast)
+6,6,Endothelial cell (capillary),#A0626A,6 Endothelial cell (capillary)
+7,7,Endothelial cell (arterial),#9e64a7,7 Endothelial cell (arterial)
+8,8,Brown adipocyte (lipogenic),#c79469,8 Brown adipocyte (lipogenic)
+9,9,Brown adipocyte (from endothelial cell),#d4bad8,9 Brown adipocyte (from endothelial cell)
+10,10,Brown adipocyte (from stromal cell),#dda8aa,10 Brown adipocyte (from stromal cell)
+11,11,MonDC,#54A453,11 MonDC
+12,12,Smooth muscle,#d8b642,12 Smooth muscle
+13,13,Stromal cell-2,#ffad3a,13 Stromal cell-2
+14,14,Endothelial cell (venous),#94539e,14 Endothelial cell (venous)
+15,15,Pericyte,#a98b24,15 Pericyte
+16,16,Brown adipocyte (contractile),#af494b,16 Brown adipocyte (contractile)
+17,17,Stromal cell-3,#ffcc84,17 Stromal cell-3
+18,18,Satelite Glia cell,#526E9F,18 Satelite Glia cell
+19,19,Slow muscle fiber,#af497e,19 Slow muscle fiber
+20,20,Lymphocytes,#003200,20 Lymphocytes
+21,21,Schwann cell,#3C8A9B,21 Schwann cell
