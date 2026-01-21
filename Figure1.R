@@ -35,7 +35,7 @@
 #    - data/SupplementalTable1_GeneScores.csv    (Gene lists for scoring)
 #
 # 3. Alternative: Final Seurat object:
-#    - doi: 
+#    - doi: 10.25592/uhhfdm.18248
 #
 # ==============================================================================
 
@@ -53,7 +53,7 @@ library(ggplot2)
 # setwd("path/to/ChREBP/")
 
 # ==============================================================================
-# SECTION 1: DATA LOADING
+# OPTIONAL SECTION 1: DATA LOADING
 # ==============================================================================
 # 
 # This section loads raw 10X Genomics data from six samples:
@@ -121,7 +121,7 @@ WT_CC$Treatment <- "Chronic Cold"
 rm(data)
 
 # ==============================================================================
-# SECTION 2: QUALITY CONTROL AND NORMALIZATION
+# OPTIONAL SECTION 2: QUALITY CONTROL AND NORMALIZATION
 # ==============================================================================
 #
 # QC filtering criteria (applied to all samples):
@@ -162,7 +162,7 @@ KO_AC <- qc_and_normalize(KO_AC, "KO_AC")
 KO_CC <- qc_and_normalize(KO_CC, "KO_CC")
 
 # ==============================================================================
-# SECTION 3: DATA INTEGRATION
+# OPTIONAL SECTION 3: DATA INTEGRATION
 # ==============================================================================
 #
 # Merge all samples and integrate using Harmony to remove batch effects
@@ -229,7 +229,7 @@ message(paste0("Integrated object: ", ncol(chrebp.combined.integrated), " nuclei
 # saveRDS(chrebp.combined.integrated, "Output/harmony_ChREBP_redone.rds")
 
 # ==============================================================================
-# SECTION 4: DOUBLET REMOVAL AND CELL TYPE ANNOTATION
+# OPTIONAL SECTION 4: DOUBLET REMOVAL AND CELL TYPE ANNOTATION
 # ==============================================================================
 #
 # Remove RBC cluster and annotate doublets using DoubletFinder results
@@ -262,7 +262,7 @@ snuc$DoubletCall <- factor(snuc$DoubletCall, levels = c("Singlet", "Doublet"))
 table(snuc$DoubletCall)
 
 # ==============================================================================
-# SECTION 5: CELL TYPE ANNOTATION
+# OPTIONAL SECTION 5: CELL TYPE ANNOTATION
 # ==============================================================================
 #
 # Apply cell type annotations based on marker gene analysis
@@ -385,7 +385,7 @@ table(so2$DoubletCall, so2$cellname)
 # saveRDS(so2, "data/ChREBP_SeuratObject_final.rds")
 
 # ==============================================================================
-# SECTION 6: FIGURE 1 PANEL C - UMAP VISUALIZATION
+# SECTION 6: START HERE FOR FIGURE 1 PANEL C - UMAP VISUALIZATION
 # ==============================================================================
 #
 # Generate the main UMAP plot showing all 21 cell clusters
